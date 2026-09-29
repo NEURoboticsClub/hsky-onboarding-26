@@ -60,6 +60,8 @@ void opcontrol() {
 	controller.initialize();
 
 	while (true) {
+		// leftDriveMotors.move(62);
+		// rightDriveMotors.move(62);
 
 		pros::delay(20);
 	}

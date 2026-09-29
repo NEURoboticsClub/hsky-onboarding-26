@@ -7,6 +7,9 @@
 #include "hskylib.h"
 
 extern HskyController controller;
+// extern TankDrive driveBase;
+extern pros::MotorGroup leftDriveMotors;
+extern pros::MotorGroup MotorGroup rightDriveMotors;
 
 void opcontrolInit();
 void robotInit();
